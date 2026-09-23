@@ -1,4 +1,4 @@
-package session7.tamrin;
+package session7.tamrin.Customer;
 
 public class SingleCustomer {
 

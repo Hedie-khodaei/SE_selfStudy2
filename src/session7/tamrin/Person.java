@@ -50,7 +50,7 @@ public abstract class Person {
         this.address = address;
         return this;
     }
-    public abstract String getRole();
+
 
     public abstract void save();
 

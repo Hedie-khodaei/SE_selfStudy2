@@ -1,9 +1,15 @@
 package session8.mft2;
 
-public abstract class Shape {
+// اگر ابسترکت کلاس دارای پراپرتی و متد بدنه نداشته باشه برای اینکه ارث بری خراب نکنه میتونیم تبدیلش کنیم به اینترفیس
+//if abstract class ---> only contains abstract method
+public interface  Shape {
 
-    public abstract float getArea();
+   float getArea();
 
-    public  abstract float getPeremeter();
+   float getPeremeter();
+
+  // default int add(int a, int b) {
+   //   return a + b;
+
 
 }
