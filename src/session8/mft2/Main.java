@@ -9,6 +9,10 @@ public class Main {
 
         System.out.println(circle.getArea());
         System.out.println(squar.getArea());
-        System.out.println(rectangle.getArea());
+        try {
+            System.out.println(rectangle.getArea());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }

@@ -30,12 +30,12 @@ public class RectAngle implements Shape {
     }
 
     @Override
-    public float getArea() {
+    public float getArea()throws Exception {
         return width*height;
     }
 
     @Override
-    public float getPeremeter() {
+    public float getPeremeter()throws Exception {
         return 2* (width + height);
     }
 }

@@ -4,9 +4,9 @@ package session8.mft2;
 //if abstract class ---> only contains abstract method
 public interface  Shape {
 
-   float getArea();
+   float getArea()throws Exception;
 
-   float getPeremeter();
+   float getPeremeter()throws Exception;
 
   // default int add(int a, int b) {
    //   return a + b;
